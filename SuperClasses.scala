@@ -26,3 +26,10 @@ class AyudanteDeProfesor(nombre: String, edad: Int,materia: String,val jefe: Pro
 
 }
 
+object Test extends App {
+    val Profesor1: Profesor = new Profesor(nombre = "Luis", edad = 45, materia = "Matemáticas")
+    val Ayudante1: AyudanteDeProfesor = new AyudanteDeProfesor(nombre = "Elvis", edad = 25, materia = "Matemáticas")
+    val Persona1: Persona = new Persona(nombre = "Carla", edad = 25)
+}
+
+
